@@ -1,5 +1,7 @@
 package pojo;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Date;
  * @Date: 2019/12/21 21:32
  * @Description: 轮播图类
  */
+@Data
 public class Swiper {
     private Integer id;
     /**

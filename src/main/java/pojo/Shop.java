@@ -1,5 +1,7 @@
 package pojo;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
@@ -7,6 +9,8 @@ import java.util.Date;
  * @Date: 2019/12/21 21:29
  * @Description: 商家类
  */
+
+@Data
 public class Shop {
 
     private Integer id;
